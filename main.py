@@ -41,7 +41,7 @@ def main() -> None:
 
 if __name__ == "__main__":
 
-    INPUT_MODEL = Path("test_models/alchemy_2.ifc")
+    INPUT_MODEL = Path("test_models/alchemy_bim2.ifc")
 
     if INPUT_MODEL is not None:
         output_subdir = Path("outputs") / INPUT_MODEL.stem
